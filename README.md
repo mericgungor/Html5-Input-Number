@@ -19,3 +19,13 @@ Bu *Html5 Input Number* plugini sayesinde min veya max değerine bakılır ve in
 
 ## Gereksinimler
 - JQuery
+
+## Kullanım
+```
+    <input type="number" step="0.01" min="5" max="15" />
+     
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+    <script src="../Js/Step.js"></script>
+    <script src="../Js/MinMax.js"></script>
+```
